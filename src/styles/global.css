@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-background text-white;
+}
+
+input {
+    @apply bg-input h-16 rounded p-3;
+}
